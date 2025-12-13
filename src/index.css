@@ -134,7 +134,7 @@ button {
 }
 
 button:hover {
-  background: #264bcc; /* darker shade */
+  background: #264bcc;
 }
 
 button:disabled {
@@ -149,9 +149,16 @@ button:disabled {
   padding: 6px 12px;
   margin: 4px;
   cursor: pointer;
+  color: var(--text);
+  transition: background 0.2s, color 0.2s;
 }
 
 .subreddit-button:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+.subreddit-button.active {
   background: var(--primary);
   color: #fff;
 }
