@@ -123,3 +123,56 @@ input:focus {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
+
+button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #264bcc; /* darker shade */
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.subreddit-button {
+  background: #f5f5f5;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 6px 12px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.subreddit-button:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+input[type="text"] {
+  border: 1px solid var(--border);
+  padding: 8px;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.loader {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .posts-list {
+    flex-direction: column;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+}
