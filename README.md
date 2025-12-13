@@ -1,16 +1,26 @@
-# React + Vite
+# Reddit Client Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Codecademy Portfolio Project built with React, Redux Toolkit, and Vite.  
+This app lets users browse Reddit posts, search by keyword, filter by subreddit, and view comments.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- React
+- Redux Toolkit
+- Vite
+- Axios
+- React Router
+- React Markdown
+- Vitest + Testing Library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Features
+- Browse posts from default subreddit (r/reactjs)
+- Search Reddit posts by keyword
+- Switch between subreddits
+- View post details and comments
+- Error handling and loading states
+- Responsive design and accessible UI
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 How to Run Locally
+```bash
+npm install
+npm run dev
