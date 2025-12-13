@@ -1,4 +1,3 @@
-// src/features/comments/commentsSlice.js
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { fetchComments } from '../../services/redditApi';
 

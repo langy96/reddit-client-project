@@ -1,4 +1,3 @@
-// src/features/subreddits/subredditsSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initial = { options: ['reactjs', 'javascript', 'webdev', 'programming'], current: 'reactjs' };
