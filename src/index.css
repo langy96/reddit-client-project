@@ -250,3 +250,24 @@ input[type="text"] {
 .footer a:hover {
   text-decoration: underline;
 }
+
+/* Small screens: shrink header/footer text */
+@media (max-width: 500px) {
+  .header a {
+    font-size: 1rem;
+  }
+  .footer {
+    font-size: 0.8rem;
+    padding: 12px;
+  }
+}
+
+/* Post cards on very narrow screens */
+@media (max-width: 400px) {
+  .post-card {
+    padding: 12px;
+  }
+  .post-card h2 {
+    font-size: 16px;
+  }
+}
