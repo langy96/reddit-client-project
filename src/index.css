@@ -66,3 +66,60 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+:root {
+  --bg: #fff;
+  --text: #222;
+  --muted: #666;
+  --border: #eee;
+  --primary: #335dff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a { color: var(--primary); text-decoration: none; }
+button { cursor: pointer; }
+button:focus, a:focus, input:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+:root {
+  --bg: #fff;
+  --text: #222;
+  --muted: #666;
+  --border: #eee;
+  --primary: #335dff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus,
+a:focus,
+input:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
